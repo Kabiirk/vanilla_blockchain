@@ -36,14 +36,14 @@ which can be done following instructions from [here](https://docs.npmjs.com/down
  
 * **STEP 2: Install Node Packages** 
 
-    This project uses mainly 2 dependencies ```crypto-js```(for     encryption) & ```elliptic```(for key generation) which can be   installed by navigating to the root of the project & running :
+    This project uses mainly 2 dependencies ```crypto-js```(for encryption) & ```elliptic```(for key generation) which can be installed by navigating to the root of the project & running :
     ```
     npm install
     ``` 
 
 * **STEP 3: First Run of the Project** 
 
-    The entry-point of this project s ```src/main.js```, the project    can be run by typing :
+    The entry-point of this project is ```src/main.js```, the project can be run by typing :
     ```
     node src/main.js
     ```
@@ -59,7 +59,7 @@ which can be done following instructions from [here](https://docs.npmjs.com/down
 * **STEP 4: Way Forward**
  
     There are 2 main files which are to be worked with :
-    * `blockchain.js` which file contains the logic of this project which controls the behaviour of the blockchain. This is where new components/operation for the blockchain can be defined and exported/used.
+    * `blockchain.js` which contains the logic of this project which controls the behaviour of the blockchain. This is where new components/operation for the blockchain can be defined and exported/used.
 
     * `main.js` contains the driver code which implements a basic blockchain & it's various operations by using classes defined in `blockchain.js`.
 
