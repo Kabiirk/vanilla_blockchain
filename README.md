@@ -1,7 +1,7 @@
 # **Vanilla Blockchain**
 A basic Blockchain implementation with [crypto-js](https://www.npmjs.com/package/crypto-js).
 
-This project is aimed at Learning the basics of blockchain by implementing ourselves.
+This project is aimed at Learning the basics of blockchain by implementing it ourselves.
 
 There are 3 main classes to simulate a basic blockchain :
 * **Block** : Acts as the building block (pun intended) of the blockchain and holds all the information(Transaction amount, To/From address).
@@ -25,7 +25,7 @@ vanilla_blockchain (Root folder)
  
 ### Get started !
 
-> **NOTE :** Make sure you have Node and npm installed
+> **NOTE :** Make sure you have Node.js and npm installed
 which can be done following instructions from [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). 
  
 * **STEP 1: Clone the Repository**
@@ -36,7 +36,7 @@ which can be done following instructions from [here](https://docs.npmjs.com/down
  
 * **STEP 2: Install Node Packages** 
 
-    This project uses mainly 2 dependencies ```crypto-js```(for encryption) & ```elliptic```(for key generation) which can be installed by navigating to the root of the project & running :
+    This project uses mainly 2 dependencies ```crypto-js```(for encryption) & ```elliptic```(for key generation) which can be installed from `package.json` or `package-lock.json` by navigating to the root of the project & running :
     ```
     npm install
     ``` 
